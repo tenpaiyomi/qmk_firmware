@@ -1,4 +1,5 @@
 /* Copyright 2021 Glorious, LLC <salman@pcgamingrace.com>
+ * Modified 2022 by rustedaperture for qmk_firmware
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -21,5 +22,5 @@
 #undef WB32_SPI_USE_QSPI
 #define WB32_SPI_USE_QSPI TRUE
 
-#undef WB32_ADC_USE_ADC1
+// #undef WB32_ADC_USE_ADC1
 #define WB32_ADC_USE_ADC1 TRUE
